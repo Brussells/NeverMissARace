@@ -58,6 +58,10 @@ h1, h3 {
 	color: #fafafa;
 }
 
+.clear {
+    clear: both;
+}
+
 /* HEADER/JUMBOTRON  */
 
 header {
@@ -152,6 +156,3 @@ header {
 
 /* FOOTER */
 
-footer {
-    clear: both;
-}
