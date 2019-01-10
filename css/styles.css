@@ -120,13 +120,13 @@ header {
 }
 
 .fade {
-	opacity: 0.8;
+	opacity: 1.0;
 	transition: opacity .2s ease-in-out;
 	-moz-transition: opacity .2s ease-in-out;
 	-webkit-transition: opacity .2s ease-in-out;
 }
 	.fade:hover {
-		opacity: 1.0;
+		opacity: 0.8;
 	}
 
 .last {
