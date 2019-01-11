@@ -53,7 +53,7 @@ html {
 	font-family: "Orbitron", sans-serif;
 }
 
-h1, h3 {
+h1, h3, footer ul li, a {
 	font-weight: bold;
 	color: #fafafa;
 }
@@ -61,6 +61,22 @@ h1, h3 {
 .clear {
     clear: both;
 }
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+a:link:active, a:link:visited {
+	
+}
+
 
 /* HEADER/JUMBOTRON  */
 
@@ -161,4 +177,17 @@ header div#head {
 
 
 /* FOOTER */
+
+footer {
+	background: rgb(50, 50, 50);
+	width: 100%;
+}
+
+	footer ul {
+		padding: 50px 0;
+	}
+
+	footer ul li {
+		padding: 5px;
+	}
 
